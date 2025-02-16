@@ -121,3 +121,7 @@ p {
   padding-left: 25px;
   color: #e0e0e0;
 }
+
+a {
+  text-decoration: none;
+}
