@@ -1,0 +1,123 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+p {
+  font-size: 1.4em;
+  color: #dcdcdc;
+}
+
+.social-links {
+  margin: 20px 0;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 15px;
+  font-size: 2em;
+  transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #00c3ff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 6px 12px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 255, 255, 0.4);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+  color: #00c3ff;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li {
+  padding: 8px 0;
+  color: #e0e0e0;
+}
+
+.experience {
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: left;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.experience:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.4);
+}
+
+.experience h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #00c3ff;
+}
+
+.job {
+  margin-bottom: 25px;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.job p {
+  margin: 8px 0;
+  font-size: 1.2em;
+  color: #b0b0b0;
+}
+
+.job ul {
+  padding-left: 25px;
+  color: #e0e0e0;
+}
